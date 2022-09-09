@@ -749,8 +749,7 @@ main {
 }
 
 .clients-item img {
-  width: 100%;
-  filter: grayscale(1);
+  width: 40%;
   transition: var(--transition-1);
 }
 
