@@ -129,7 +129,10 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img, ion-icon, a, button, time, span { display: block; }
+img, ion-icon, a, button, time, span { 
+  display: block;
+  border-radius: 15px;
+ }
 
 button {
   font: inherit;
@@ -1338,7 +1341,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { 
+    width: 120px;
+    border-radius: 30px;
+   }
 
   .info-content .name { margin-bottom: 15px; }
 
